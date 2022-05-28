@@ -2,8 +2,8 @@
 
 **By:** [Abdel An'lah TIDJANI](https://www.linkedin.com/in/abdelanlah-tidjani/)
 
-**Program:** Master in Mathematics Economics and Statistics (MMES) - African School of Economics (ASE)
-
+**Program:** Master in Mathematics Economics and Statistics (MMES) - [African School of Economics](https://africanschoolofeconomics.com/)
+]
 **Course:** Political Economy 2021/2022
 
 **prof:** Ian Heffernan
