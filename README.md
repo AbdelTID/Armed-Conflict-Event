@@ -18,4 +18,4 @@ Working with spatial conflict data using [QGIS](src/https://www.qgis.org/en/site
 
 ## Data Type and Characteristics
 ACLED codes the dates, actors, locations, fatalities, and types of all reported political violenceand demonstration events around the world in real time.
-The data covers the time period between 1970 through 2016, except for 1993.  The attributes consist of numeric, categorical, character, and time series values.  
+The data covers the time period between 1997 through present day.  The attributes consist of numeric, categorical, character, and time series values.  
