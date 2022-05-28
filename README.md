@@ -17,7 +17,7 @@ Working with spatial conflict data using [QGIS](https://www.qgis.org/en/site/) :
   To facilitate this objective, we used The Armed Conflict Location & Event Data Project [(ACLED)](https://acleddata.com/#/dashboard), which is a disaggregated data collection, analysis, and crisis mapping project. ACLED is a registered non-profit organization with 501(c)(3) status in the United States. This is a large dataset that provides an opportunity to use Python for data cleansing, exploratory data analysis, visualizations, feature engineering and machine learning. 
 
 ## Data Type and Characteristics
-ACLED codes the dates, actors, locations, fatalities, and types of all reported political violenceand demonstration events around the world in real time.
+ACLED codes the dates, actors, locations, fatalities, and types of all reported political violence and demonstration events around the world in real time.
 The data covers the time period between 1997 through present day.  The attributes consist of numeric, categorical, character, and time series values.  
 We select Ghana and Kenya as countries to study.  
 
