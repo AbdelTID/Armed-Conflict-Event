@@ -1,10 +1,12 @@
 # Armed Conflict Event
 
-**By:** Abdel An'lah TIDJANI
+**By:** [Abdel An'lah TIDJANI](https://www.linkedin.com/in/abdelanlah-tidjani/)
 
 **Program:** Master in Mathematics Economics and Statistics (MMES) - African School of Economics (ASE)
 
 **Course:** Political Economy 2021/2022
+
+**prof:** Ian Heffernan
 
 ## Project Goal
 Working with spatial conflict data using [QGIS](https://www.qgis.org/en/site/) :
