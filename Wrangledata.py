@@ -42,8 +42,8 @@ def wrangle(file):
       "RIOTERS VERSUS OTHERS","SOLE PROTESTER ACTION","PROTESTERS VERSUS PROTESTERS","PROTESTERS VERSUS CIVILIANS","PROTESTERS VERSUS OTHER",
       "OTHER ACTOR VERSUS CIVILIANS","SOLE OTHER ACTION"]
 
-    actor_type= ["State Forces","Rebel Groups","Political Militias","Identity Militias","Rioters","Protesters","Civilians","Other Forces"]
-    actor_key=range(1,9)
+    actor_type= ["No victime","State Forces","Rebel Groups","Political Militias","Identity Militias","Rioters","Protesters","Civilians","Other Forces"]
+    actor_key=range(0,9)
 
     # inter1
     df["inter_1"]=df["inter1"]
