@@ -33,3 +33,5 @@ I work on Ghana and Kenya as countries to study. This is the final submission of
 
 * [01 - Data Preprocessing](Data-Preprocessing.ipynb)
 * [02 - Ghana Exploratory Data Analysis](Ghana-Exploratory-Data-Analysis.ipynb)
+* [03 - Kenya Exploratory Data Analysis](Kenya-Exploratory-Data-Analysis.ipynb)
+* 
