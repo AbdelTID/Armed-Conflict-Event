@@ -2,11 +2,10 @@
 
 **By:** [Abdel An'lah TIDJANI](https://www.linkedin.com/in/abdelanlah-tidjani/)
 
-**Program:** Master in Mathematics Economics and Statistics (MMES) - [African School of Economics](https://africanschoolofeconomics.com/)
+**Program:** Master in Mathematics Economics and Statistics (MMES) - [African School of Economics]
 
 **Course:** Political Economy 2021/2022
 
-**prof:** Ian Heffernan3
 
 ## Project Goal
  write a research proposal by working with spatial conflict data using [QGIS](https://www.qgis.org/en/site/) :
