@@ -34,3 +34,13 @@ I work on Ghana and Kenya as countries to study. This is the final submission of
 * [02 - Ghana Exploratory Data Analysis](Ghana-Exploratory-Data-Analysis.ipynb)
 * [03 - Kenya Exploratory Data Analysis](Kenya-Exploratory-Data-Analysis.ipynb)
 * [04 - ACLED Data Visualization (Text and Map)](ACLED_data_visualization.ipynb)
+
+
+![Semantic description of image](figure/Ghana_ev.png "Fatalities & Event in Ghana")
+
+![Semantic description of image](figure/Kenya_ev.png "Fatalities & Event in Kenya")
+
+![Semantic description of image](figure/GhanaMap.png "Map of conflict event in Ghana")
+
+![Semantic description of image](figure/KenyaMap.png "Map of conflict event in Kenya")
+
