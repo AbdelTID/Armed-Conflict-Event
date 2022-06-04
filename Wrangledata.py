@@ -7,8 +7,6 @@ from datetime import datetime
 
  # define cleaning function 
 
- # define cleaning function 
-
 def wrangle(file):
     
     # Load data
@@ -26,42 +24,39 @@ def wrangle(file):
     df['event_date']=pd.to_datetime(df["event_date"], format=dateFormatter)
 
     # drop numeric features with no useful information 
-    df.drop(columns = ["data_id", "iso", "event_id_no_cnty","time_precision","timestamp","geo_precision"] , inplace=True)
+    df.drop(columns = ["data_id", "iso", "event_id_no_cnty",
+                       "time_precision","timestamp","geo_precision"] , inplace=True)
     
-    # create new feature interact
-    key = [10,11,12,13,14,15,16,17,18,20,22,23,24,25,26,27,28,30,33,34,35,36,37,38,40,44,45,46,47,48,50,55,56,57,58,60,66,67,68,78,80]
+       # Transform variable
 
-    value = ["SOLE MILITARY ACTION","MILITARY VERSUS MILITARY","MILITARY VERSUS REBELS","MILITARY VERSUS POLITICAL MILITIA",
-      "MILITARY VERSUS COMMUNAL MILITIA","MILITARY VERSUS RIOTERS","MILITARY VERSUS PROTESTERS","MILITARY VERSUS CIVILIANS",
-      "MILITARY VERSUS OTHER","SOLE REBEL ACTION","REBELS VERSUS REBELS","REBELS VERSUS POLITICAL MILIITA","REBELS VERSUS COMMUNAL MILITIA",
-      "REBELS VERSUS RIOTERS","REBELS VERSUS PROTESTERS","REBELS VERSUS CIVILIANS","REBELS VERSUS OTHERS","SOLE POLITICAL MILITIA ACTION",
-      "POLITICAL MILITIA VERSUS POLITICAL MILITIA","POLITICAL MILITIA VERSUS COMMUNAL MILITIA","POLITICAL MILITIA VERSUS RIOTERS",
-      "POLITICAL MILITIA VERSUS PROTESTERS","POLITICAL MILITIA VERSUS CIVILIANS","POLITICAL MILITIA VERSUS OTHERS","SOLE COMMUNAL MILITIA ACTION",
-      "COMMUNAL MILITIA VERSUS COMMUNAL MILITIA","COMMUNAL MILITIA VERSUS RIOTERS","COMMUNAL MILITIA VERSUS PROTESTERS","COMMUNAL MILITIA VERSUS CIVILIANS",
-      "COMMUNAL MILITIA VERSUS OTHER","SOLE RIOTER ACTION","RIOTERS VERSUS RIOTERS","RIOTERS VERSUS PROTESTERS","RIOTERS VERSUS CIVILIANS",
-      "RIOTERS VERSUS OTHERS","SOLE PROTESTER ACTION","PROTESTERS VERSUS PROTESTERS","PROTESTERS VERSUS CIVILIANS","PROTESTERS VERSUS OTHER",
-      "OTHER ACTOR VERSUS CIVILIANS","SOLE OTHER ACTION"]
+    key = [10,11,12,13,14,15,16,17,18,20,22,23,24,25,26,27,28,30,33,34,35,
+           36,37,38,40,44,45,46,47,48,50,55,56,57,58,60,66,67,68,78,80,88]
 
-    actor_type= ["No victime","State Forces","Rebel Groups","Political Militias","Communal Militias",
-                 "Rioters","Protesters","Civilians","Other Forces"]
+    value = ['sole military action', 'military versus military', 'military versus rebels', 'military versus political militia',
+         'military versus communal militia', 'military versus rioters', 'military versus protesters', 'military versus civilians',
+         'military versus other', 'sole rebel action', 'rebels versus rebels', 'rebels versus political miliita',
+         'rebels versus communal militia', 'rebels versus rioters', 'rebels versus protesters', 'rebels versus civilians',
+         'rebels versus others', 'sole political militia action', 'political militia versus political militia',
+         'political militia versus communal militia', 'political militia versus rioters', 'political militia versus protesters',
+         'political militia versus civilians', 'political militia versus others', 'sole communal militia action',
+         'communal militia versus communal militia', 'communal militia versus rioters', 'communal militia versus protesters',
+         'communal militia versus civilians', 'communal militia versus other', 'sole rioter action', 'rioters versus rioters',
+         'rioters versus protesters', 'rioters versus civilians', 'rioters versus others', 'sole protester action', 'protesters versus protesters',
+         'protesters versus civilians', 'protesters versus other', 'other actor versus civilians',
+             'sole other action','other force versus  other force']
+
+    actor_type= ['no victicme', 'state forces', 'rebel groups', 'political militias', 'communal militias',
+             'rioters', 'protesters', 'civilians', 'other forces']
     actor_key=range(0,9)
 
     # inter1
-    df["inter_1"]=df["inter1"]
-    for i in range(len(actor_key)):
-        df.inter_1[df["inter1"]==int(actor_key[i])]=str(actor_type[i].lower())
+    df["inter1"]=df["inter1"].replace(actor_key,actor_type)
+
     # inter2
-    df["inter_2"]=df["inter2"]
-    for i in range(len(actor_key)):
-        df.inter_2[df["inter2"]==int(actor_key[i])]=str(actor_type[i].lower())
+    df["inter2"]=df["inter2"].replace(actor_key,actor_type)
 
     # interaction    
-    df["interact"]=df["interaction"]
+    df["interaction"]=df["interaction"].replace(key,value)
 
-    for i in range(len(key)):
-        df.interact[df["interact"]==int(key[i])]=str(value[i].lower())
-        
-    df.drop(columns=["interaction",'inter1','inter2'], inplace=True)
     
-
     return df
