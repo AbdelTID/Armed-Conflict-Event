@@ -8,3 +8,4 @@ vega_datasets==0.9.0
 geopandas==0.10.2 
 nltk==3.7
 wordcloud==1.6.0
+folium @ git+https://github.com/python-visualization/folium@551b2420150ab56b71dcf14c62e5f4b118caae32
