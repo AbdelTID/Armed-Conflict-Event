@@ -1,3 +1,7 @@
+![Semantic description of image](figure/Ghana_ev.png "Fatalities & Event in Ghana")
+
+![Semantic description of image](figure/Kenya_ev.png "Fatalities & Event in Kenya")
+
 # Armed Conflict Event
 
 **By:** [Abdel An'lah TIDJANI](https://www.linkedin.com/in/abdelanlah-tidjani/)
