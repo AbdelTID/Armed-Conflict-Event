@@ -28,7 +28,7 @@ The data covers the time period between 1997 through present day.  The attribute
 
 
 ## Source Code
-I work on Ghana and Kenya as countries to study. This is the final submission of the project for [Ghana](Conflict_Ghana.pdf) and [Kenya](). Here I share my notebook who help me answers the five first point of the project with some update on the visualization. The complete source  is available below.  The source data for the project is included.  But, you can  download from the [The Armed Conflict Location & Event Data Project](https://acleddata.com/data-export-tool/) the update one.
+I work on Ghana and Kenya as countries to study. This is the final submission of the project for [Ghana](Conflict_Ghana.pdf) and [Kenya](). Here I share my notebook who help me answers the five first point of the project with some update on the visualization. The complete source  is available on [Binder](https://mybinder.org/v2/gh/AbdelTID/Armed-Conflict-Event/HEAD).  The source data for the project is included.  But, you can  download from the [The Armed Conflict Location & Event Data Project](https://acleddata.com/data-export-tool/) the update one.
 
 * [01 - Data Preprocessing](Data-Preprocessing.ipynb)
 * [02 - Ghana Exploratory Data Analysis](Ghana-Exploratory-Data-Analysis.ipynb)
