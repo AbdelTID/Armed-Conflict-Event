@@ -1,3 +1,5 @@
+[![Language](https://img.shields.io/badge/language-python-blue.svg?style=flat)](https://www.python.org)
+
 ![Semantic description of image](figure/Ghana_ev.png "Fatalities & Event in Ghana")
 
 ![Semantic description of image](figure/Kenya_ev.png "Fatalities & Event in Kenya")
