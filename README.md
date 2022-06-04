@@ -40,9 +40,6 @@ I work on Ghana and Kenya as countries to study. This is the final submission of
 * [04 - ACLED Data Visualization (Text and Map)](ACLED_data_visualization.ipynb)
 
 
-![Semantic description of image](figure/Ghana_ev.png "Fatalities & Event in Ghana")
-
-![Semantic description of image](figure/Kenya_ev.png "Fatalities & Event in Kenya")
 
 ![Semantic description of image](figure/GhanaMap.png "Map of conflict event in Ghana")
 
